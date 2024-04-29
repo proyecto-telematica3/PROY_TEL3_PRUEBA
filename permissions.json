@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "proyecto-telematica3-2c755",
+  "private_key_id": "f06b0c26a409f66466d0ba06854c8078d5bfa122",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDAHzaG43YaYf1d\nxJVaYgP5KIZF6dYVTi+CqARfVNtQuoSIWQaEAz8DzxgDrKKqp4NIICfIp6NzFjfW\nmVr1bMOYbQji2hmegiZFJYC5471ECaV6fxnapwreLsr38dsqwSUCyHGz5VDCIW5k\npNC74g0c4Mb+gy/8xf6JJ/C/QpFCIdZHQN102QyTwwb2yrPq1cenKnXKQOMepQnT\nYQn/+yR4VhWTZ07Uv4prTk89OUWjoOCIPD9ZQ37yszmZ1p+jdnyTR6/vardJ81og\n/tmWC3c6NlNkMhM80Gou84kYBFHWe1qkLmrB1fnWm90NTJrZoS5gLqE45jNPUiB+\nEHVw6NmHAgMBAAECggEAQauJpmLi0FLVWbNj/+CIDidBem1bHa47hDQtRm7Jhpcy\nzS5tETvQ0tr7kOn2MlIPCFzhbG+M6b5a+NIzqrdyRkxi4LP/VNSVA0a18RR88eBA\nPZZrfndhuh+Rhl4X9c3OelyMrRrB15G429MQfGBg7hGRQ5cRFJyTDEvoOWAmKc2y\nKGOjXPp5VuI4OrU+w0L5eV4OTC4UQ2ASlHNfy5F8KqgP1wa17NPYVQn+X4G1d1Li\n+gAVJxgn/H+gOOyQHsAmpkeYQIEjiTiNf8oHDziPIHLjN+kRIkfASAjTHblG4l38\n33k/E56UsmJTt18Pz6QeQWC7v67hp3nW213RK0d0VQKBgQDtrlSqjIJ1/915M2pm\ns33aFdVR3p8drW4g4FJcU6xBse/ErluMJ7OEV7eQIarbhy9ai9ZfgdQx8jva/8li\nghUgo8XQJi00P/TXUPNcfD2x825BY0vhwajw1vz1dZuXzW4jr3cdRm8JMM68V5p6\nlcTdqZORwsx28Y3Vc/rErdvAPQKBgQDO7fWUBQ1t8St2SpK4sFx5PASYYlzOGuQG\nS7hydHCrYf+BeqEvbxf/jXT767ORDQ1H7D0EqmZkUv8ik57Myp4Hzgs94yGX4RZb\nucWTOOFe/HGIBsgAIcAEcgAPX8fOCEmUTe0DRXpruzMXWpQnjzXtd/PwT2Gy1NbA\nPZlrG7w5EwKBgFEyjkAZcnRHbez68K2XQjZf4Rlv+WHVHttiZyCdgSqMVEIX4rSV\n15EtuksmBU2r+DRxs1G7c7eAboxZd/4MPJWC/ZAniqff9ZAdWpZM53LEm/UArCq6\n0zE78P0WKYqJpsfQKNw6dLJqFyZmsyKPycqEJSLVrq4vxWmXjqLkVj9tAoGACdXf\npVB0KfSblzzGKocfbhe/NCsAtD8s9Wul8bK9JDg9N79HaATExD3KAKtcVpmjNvbw\nk4cx5LTZMaCInL1Is6BEgoWINDrboDJ9RJkghS5Eiy2fVfpEsTFl9VUdHxrfvG/T\nwyMLRZGZRRPmFNdGvenEq3hqcWCScIK9Bw1DbgcCgYBq4ff+yXTFwkDa5yrvxycu\nnWJUn7q7OU9vfaOEkxm5DNNlBwVBDLVRxYkCTkViBhP1OMTO2YpY7DI+xFf78qc5\nugPkAtdj9ddxyh+hxwAIvUiXZMSxo0YmZeN7OO1e7YcnqE6juFIOPM3jw4VUNm7r\nCmoopTDM5KhFpcOZBuTu5A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-55yhn@proyecto-telematica3-2c755.iam.gserviceaccount.com",
+  "client_id": "108536393498496888559",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-55yhn%40proyecto-telematica3-2c755.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
