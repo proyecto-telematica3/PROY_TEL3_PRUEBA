@@ -2,6 +2,7 @@
 
 Rutas activas del proyecto:
 | Ruta | Metodo | Observaciones |
+| ------------- | ------------- |------------- |
 | '/create/product' | POST | Requiere name cantidad precio (enviados por el __body__ de la peticion en formato JSON)   |
 | /products/:product_id | GET | Requiere ID (enviado por los __query/parmas__ y devuelve el producto buscado si existe) |
 | /products | GET | Responde un archivo JSON con la lista de productos |
