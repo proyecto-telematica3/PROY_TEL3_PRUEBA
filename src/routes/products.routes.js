@@ -18,7 +18,7 @@ router.post("/create/product", async (req, res) => {
 
     await db
       .collection("products")
-      .doc()
+      .doc(name)
       .create({ name, cantidad, precio });
 
     return res.status(200).json({ message: 'Producto creado exitosamente.' });
