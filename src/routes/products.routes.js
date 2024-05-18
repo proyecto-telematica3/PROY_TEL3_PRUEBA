@@ -261,7 +261,7 @@ router.delete("/users/admin/delete/:users_id", async (req, res) => {
 router.post("/create/users", async (req, res) => {
   console.log("PETICION POST /create/users realizada")
   try {
-    const { user, password, email } = req.body; 
+    const { user, email, password } = req.body; 
 
     if (!user || !password || !email) {
       return res.status(400).json('Se requieren el nombre de usuario, la contraseña y el correo electrónico.');
@@ -283,11 +283,11 @@ router.post("/create/users", async (req, res) => {
 //Autenticacion usuario perfil CLIENTE
 
 router.post("/login/users", async (req, res) => {
-  console.log("PETICION POST /login/users realizada")
+  console.log("PETICION POST /login/users realizada");
   const { user, password } = req.body; 
 
   if (!user || !password) {
-    return res.status(400).json('Se requieren tanto el nombre de usuario como la contraseña.');
+    return res.status(400).json({ error: 'Se requieren tanto el nombre de usuario como la contraseña.' });
   }
 
   const docRef = db.collection("users").doc(user);
@@ -300,12 +300,12 @@ router.post("/login/users", async (req, res) => {
       const compare = bcryptjs.compareSync(password, storedPassword);
 
       if (compare) {
-        return res.status(200).json("¡AUTENTICACIÓN EXITOSA!");
+        return res.status(200).json({ message: '¡AUTENTICACIÓN EXITOSA!' });
       } else {
-        return res.status(401).json('Contraseña incorrecta');
+        return res.status(401).json({ error: 'Contraseña incorrecta' });
       }
     } else {
-      return res.status(404).send("Usuario no encontrado");
+      return res.status(404).json({ error: 'Usuario no encontrado' });
     }
   } catch (error) {
     console.error("Error al verificar el documento:", error);
